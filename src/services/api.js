@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://my-json-server.typicode.com/SalcedoJh/db.json/db';
+const API_BASE_URL = 'https://my-json-server.typicode.com/SalcedoJh/db.json';
+ 
 
 // Create axios instance
 const api = axios.create({
@@ -85,4 +86,5 @@ export const userService = {
 };
 
 export default api;
+
 
