@@ -1,0 +1,124 @@
+.order-detail-modal {
+    max-width: 900px;
+}
+
+.order-date {
+    color: var(--gray);
+    font-size: 0.875rem;
+    margin: 0.25rem 0 0 0;
+}
+
+.order-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    background: var(--gray-lighter);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info-label {
+    font-size: 0.875rem;
+    color: var(--gray);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.products-section h3 {
+    margin: 0 0 1rem 0;
+    color: var(--dark);
+}
+
+.products-table {
+    overflow-x: auto;
+}
+
+.products-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-table thead {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.products-table th,
+.products-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-lighter);
+}
+
+.products-table th {
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.products-table tbody tr:hover {
+    background: var(--gray-lighter);
+}
+
+.item-details-cell {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.detail-badge {
+    background: var(--gray-lighter);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+
+.quantity-badge {
+    background: var(--primary-light);
+    color: var(--white);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.total-row {
+    background: var(--gray-lighter);
+    font-size: 1.125rem;
+}
+
+.total-amount {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .order-detail-modal {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .products-table {
+        font-size: 0.875rem;
+    }
+
+    .products-table th,
+    .products-table td {
+        padding: 0.5rem;
+    }
+}

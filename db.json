@@ -1,0 +1,444 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "articulo": "AIR PUMP DISPENSER 50ML",
+      "descripcion": "Dispensador de bomba de aire para productos líquidos, ideal para cremas y lociones.",
+      "imagen": "https://i.pinimg.com/736x/4f/f5/dc/4ff5dc9fe0bdbce6cf46dbb5952bcc22.jpg",
+      "precio": 3,
+      "categoryId": "1",
+      "tieneTapa": false,
+      "tiposTapa": ""
+    },
+    {
+      "id": 3,
+      "articulo": "AIRLESS 30G.",
+      "descripcion": "Envase airless para cremas y lociones, evita la contaminación del producto.",
+      "imagen": "https://ae01.alicdn.com/kf/S0730138c48cc4cf993161df49fe339d4U.jpg",
+      "precio": 4.5,
+      "categoryId": "1",
+      "tieneTapa": false,
+      "tiposTapa": ""
+    },
+    {
+      "id": 4,
+      "articulo": "CAPSULERO-BLANCO",
+      "descripcion": "tien",
+      "imagen": "https://irp-cdn.multiscreensite.com/c392af66/MOBILE/jpg/1330986-solasky-capsuleros-1.jpg",
+      "categoryId": "1",
+      "tieneTapa": false,
+      "tiposTapa": "",
+      "precio": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nombre": "Envases y Frascos",
+      "descripcion": "Envases, frascos, potes y contenedores"
+    },
+    {
+      "id": 2,
+      "nombre": "Tapas y Dispensadores",
+      "descripcion": "Tapas, dispensadores, atomizadores y goteros"
+    },
+    {
+      "id": 3,
+      "nombre": "Embalaje",
+      "descripcion": "Bolsas, cajas, precintos y material de embalaje"
+    },
+    {
+      "id": 4,
+      "nombre": "Limpieza",
+      "descripcion": "Productos de limpieza y desinfección"
+    },
+    {
+      "id": 5,
+      "nombre": "Oficina",
+      "descripcion": "Artículos de oficina y papelería"
+    },
+    {
+      "id": 6,
+      "nombre": "Insumos de Laboratorio",
+      "descripcion": "Insumos y materiales para laboratorio"
+    }
+  ],
+  "sucursales": [
+    {
+      "id": 1,
+      "nombre": "Lima Centro",
+      "direccion": "Av. Principal 123, Lima",
+      "telefono": "01-1234567"
+    },
+    {
+      "id": 2,
+      "nombre": "Chorrillos",
+      "direccion": "Av. Huaylas 456, Chorrillos",
+      "telefono": "01-2345678"
+    },
+    {
+      "id": 3,
+      "nombre": "Magdalena",
+      "direccion": "Av. Brasil 789, Magdalena",
+      "telefono": "01-3456789"
+    },
+    {
+      "id": 4,
+      "nombre": "Arequipa",
+      "direccion": "Calle Mercaderes 321, Arequipa",
+      "telefono": "054-123456"
+    },
+    {
+      "id": 5,
+      "nombre": "Cusco",
+      "direccion": "Av. El Sol 654, Cusco",
+      "telefono": "084-234567"
+    },
+    {
+      "id": 6,
+      "nombre": "Sullana",
+      "direccion": "Jr. Lima 987, Sullana",
+      "telefono": "073-345678"
+    },
+    {
+      "id": 7,
+      "nombre": "Piura",
+      "direccion": "Av. Grau 147, Piura",
+      "telefono": "073-456789"
+    },
+    {
+      "id": 8,
+      "nombre": "Juliaca",
+      "direccion": "Jr. San Román 258, Juliaca",
+      "telefono": "051-567890"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "nombre": "Administrador",
+      "tipo": 1,
+      "sucursalId": null,
+      "viewAllCategories": true,
+      "allowedCategories": []
+    },
+    {
+      "id": 2,
+      "username": "chorrillos",
+      "password": "chorrillos123",
+      "nombre": "Sucursal Chorrillos",
+      "tipo": 3,
+      "sucursalId": 2,
+      "viewAllCategories": true,
+      "allowedCategories": []
+    },
+    {
+      "id": 3,
+      "username": "magda",
+      "password": "magda123",
+      "nombre": "Sucursal Magdalena",
+      "tipo": 3,
+      "sucursalId": 3,
+      "viewAllCategories": true,
+      "allowedCategories": []
+    },
+    {
+      "id": 4,
+      "username": "lab",
+      "password": "lab123",
+      "nombre": "Laboratorio",
+      "tipo": 3,
+      "sucursalId": 1,
+      "viewAllCategories": true,
+      "allowedCategories": []
+    },
+    {
+      "id": 5,
+      "username": "iza",
+      "password": "iza123",
+      "nombre": "Sucursal Izaguirre",
+      "tipo": 3,
+      "sucursalId": 1,
+      "viewAllCategories": true,
+      "allowedCategories": []
+    },
+    {
+      "id": 6,
+      "username": "arequipa",
+      "password": "arequipa123",
+      "nombre": "Sucursal Arequipa",
+      "tipo": 2,
+      "sucursalId": 4,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 7,
+      "username": "cuzco",
+      "password": "cuzco123",
+      "nombre": "Sucursal Cusco",
+      "tipo": 2,
+      "sucursalId": 5,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "username": "sullana",
+      "password": "sullana123",
+      "nombre": "Sucursal Sullana",
+      "tipo": 2,
+      "sucursalId": 6,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 9,
+      "username": "piura",
+      "password": "piura123",
+      "nombre": "Sucursal Piura",
+      "tipo": 2,
+      "sucursalId": 7,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "username": "juliaca",
+      "password": "juliaca123",
+      "nombre": "Sucursal Juliaca",
+      "tipo": 2,
+      "sucursalId": 8,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 11,
+      "username": "pedro",
+      "password": "pedro123",
+      "nombre": "juan lucas",
+      "tipo": 2,
+      "sucursalId": null,
+      "viewAllCategories": false,
+      "allowedCategories": [
+        1,
+        3,
+        2,
+        4,
+        6
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "sucursalId": 2,
+      "items": [
+        {
+          "productId": 5,
+          "nombre": "AIRLESS BLANCO 30G",
+          "precio": 4.75,
+          "tamano": "30ml",
+          "conTapa": true,
+          "tipoTapa": "",
+          "tipoFiltro": "",
+          "cantidad": 50
+        },
+        {
+          "productId": 1,
+          "nombre": "AIR PUMP DISPENSER 30ML",
+          "precio": 2.5,
+          "tamano": "30ml",
+          "conTapa": true,
+          "tipoTapa": "",
+          "tipoFiltro": "",
+          "cantidad": 50
+        }
+      ],
+      "total": 362.5,
+      "fecha": "2025-11-22T03:12:18.885Z",
+      "estado": "completado"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "sucursalId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "nombre": "AIR PUMP DISPENSER 30ML",
+          "precio": 2.5,
+          "tamano": "60ml",
+          "conTapa": true,
+          "tipoTapa": "",
+          "tipoFiltro": "",
+          "cantidad": 1
+        },
+        {
+          "productId": 3,
+          "nombre": "AIRLESS 30G.",
+          "precio": 4.5,
+          "tamano": "30ml",
+          "conTapa": true,
+          "tipoTapa": "",
+          "tipoFiltro": "",
+          "cantidad": 1
+        }
+      ],
+      "total": 7,
+      "fecha": "2025-11-22T03:30:05.582Z",
+      "estado": "pendiente"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "sucursalId": 2,
+      "items": [
+        {
+          "productId": 5,
+          "nombre": "AIRLESS BLANCO 30G",
+          "precio": 4.75,
+          "tamano": "30g",
+          "conTapa": true,
+          "tipoTapa": "",
+          "tipoFiltro": "",
+          "cantidad": 1
+        }
+      ],
+      "total": 4.75,
+      "fecha": "2025-11-22T03:41:13.754Z",
+      "estado": "pendiente"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "sucursalId": null,
+      "items": [
+        {
+          "productId": 1,
+          "nombre": "AIR PUMP DISPENSER 30ML",
+          "tamano": "",
+          "conTapa": true,
+          "tipoTapa": "Atomizador",
+          "tipoFiltro": "",
+          "cantidad": 1,
+          "precio": 2.5
+        }
+      ],
+      "total": 2.5,
+      "fecha": "2025-11-26T03:03:16.416Z",
+      "estado": "pendiente"
+    }
+  ],
+  "product_categories": [
+    {
+      "productId": 15,
+      "categoryId": 4
+    },
+    {
+      "productId": 18,
+      "categoryId": 4
+    },
+    {
+      "productId": 19,
+      "categoryId": 4
+    },
+    {
+      "productId": 76,
+      "categoryId": 4
+    },
+    {
+      "productId": 78,
+      "categoryId": 4
+    },
+    {
+      "productId": 81,
+      "categoryId": 4
+    },
+    {
+      "productId": 132,
+      "categoryId": 4
+    },
+    {
+      "productId": 135,
+      "categoryId": 4
+    },
+    {
+      "productId": 151,
+      "categoryId": 4
+    },
+    {
+      "productId": 152,
+      "categoryId": 4
+    },
+    {
+      "productId": 156,
+      "categoryId": 4
+    },
+    {
+      "productId": 158,
+      "categoryId": 4
+    },
+    {
+      "productId": 159,
+      "categoryId": 4
+    },
+    {
+      "productId": 164,
+      "categoryId": 4
+    },
+    {
+      "productId": 207,
+      "categoryId": 4
+    },
+    {
+      "productId": 246,
+      "categoryId": 4
+    },
+    {
+      "productId": 2,
+      "categoryId": 1
+    },
+    {
+      "productId": 3,
+      "categoryId": 1
+    },
+    {
+      "productId": 4,
+      "categoryId": 1
+    }
+  ]
+}
